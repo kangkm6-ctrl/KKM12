@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0D1222">
-<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}.tm{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) auto;gap:4px;align-items:center}.tm select,.advg select{font:inherit;font-size:.85rem;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:4px 2px;min-height:36px;min-width:0;width:100%}.info{display:block;font-size:.72rem;line-height:1.4;color:var(--ink-2)}.info:empty{display:none}.adv summary{margin-top:0;font-size:.82rem}.advg{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin-top:6px}.advg label{display:flex;flex-direction:column;gap:2px;font-size:.75rem;color:var(--ink-2)}.ss{font-size:.64rem;line-height:1.25;color:var(--ink-2);margin-top:1px}.dun{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;margin-top:6px}.dun div{border:1px solid var(--line);border-radius:4px;padding:3px 0;text-align:center;line-height:1.25}.dun small{display:block;font-size:.66rem;color:var(--ink-2)}.dun b{font-family:var(--f-serif);font-size:1.05rem}.dun .cur{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}form#form,form#pform{grid-template-columns:minmax(0,1fr) 38px}.tm{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr) auto}.tm input[type=time]{min-width:0;padding:4px 2px;font-size:.85rem}</style>
 <link rel="apple-touch-icon" href="data:image/png;base64,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"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="사주타로"><title>사주타로 리딩</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap">
 <style>:root{--bg:#ECEEF3;--surface:#F7F8FB;--ink:#151B2E;--ink-2:#4A526A;--line:#CDD2DF;--accent:#4A3FA6;--accent-ink:#FFFFFF;--back:#1B2250;--gold:#D9B65D;--wood:#2E7D5B;--fire:#C2412F;--earth:#A87812;--metal:#66728A;--water:#2D5AA8;--f-display:"Song Myung","AppleMyungjo","Batang",serif;--f-serif:"Song Myung","AppleMyungjo","Batang",serif;--f-body:system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0D1222;--surface:#151C33;--ink:#E6E9F5;--ink-2:#9AA3BF;--line:#29314D;--accent:#A99BFF;--accent-ink:#14102E;--back:#232C63;--gold:#D9B65D;--wood:#5FBF93;--fire:#F2705C;--earth:#E0B04A;--metal:#AEB7C6;--water:#6E9BEA;color-scheme:dark;}}:root[data-theme="dark"]{--bg:#0D1222;--surface:#151C33;--ink:#E6E9F5;--ink-2:#9AA3BF;--line:#29314D;--accent:#A99BFF;--accent-ink:#14102E;--back:#232C63;--gold:#D9B65D;--wood:#5FBF93;--fire:#F2705C;--earth:#E0B04A;--metal:#AEB7C6;--water:#6E9BEA;color-scheme:dark;}*{box-sizing:border-box;}body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.7;padding-block:28px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));}.wrap{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:28px;}h1,h2,h3{font-family:var(--f-display);font-weight:400;margin:0;text-wrap:balance;line-height:1.3;}h1{font-size:2.3rem;letter-spacing:0.02em;}h2{font-size:1.45rem;}h3{font-size:1.1rem;}p{margin:0;}.brand{display:flex;align-items:center;gap:14px}#logo{border-radius:12px;flex:none}.chk-l{text-align:center;white-space:nowrap}.chk{width:44px;height:44px;padding:0;display:grid;place-items:center;background:var(--bg);color:var(--ink-2);border:1px solid var(--line);border-radius:4px;cursor:pointer}.chk .mk{opacity:0;transition:opacity .15s}.chk.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}.chk.on .mk{opacity:1}.chk.on .bm{fill:currentColor;fill-opacity:.2}.recs{display:flex;flex-wrap:wrap;gap:8px}.rec{display:inline-flex;align-items:stretch;border:1px solid var(--line);border-radius:999px;background:var(--bg);overflow:hidden;max-width:100%}.rec button{font:inherit;font-size:.85rem;background:none;border:0;color:var(--ink);padding:6px 12px;min-height:36px;cursor:pointer;font-variant-numeric:tabular-nums}.rec .del{padding:6px 11px;color:var(--ink-2);border-left:1px solid var(--line)}.rec.cur{border-color:var(--accent)}.rec .tg{font-size:.7rem;color:var(--accent);margin-left:6px}.traits dl{display:grid;grid-template-columns:5.6em minmax(0,1fr);gap:10px 12px;margin:10px 0 0}.traits dt{font-weight:700;color:var(--accent)}.traits dd{margin:0}.lede{color:var(--ink-2);max-width:36em;margin-top:8px;}.label{font-size:0.72rem;letter-spacing:0.12em;color:var(--ink-2);text-transform:uppercase;}.panel{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:18px;}section{display:flex;flex-direction:column;gap:14px;min-width:0;}form{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) 44px;gap:14px 10px;}.field{display:flex;flex-direction:column;gap:6px;min-width:0;}.field.full{grid-column:1 / -1;}input[type="date"],input[type="time"]{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:10px 8px;width:100%;min-width:0;min-height:44px;}input:disabled{opacity:0.45;}.check{display:flex;align-items:center;gap:8px;font-size:0.85rem;color:var(--ink-2);}.check input{width:18px;height:18px;accent-color:var(--accent);}.seg{display:flex;flex-wrap:wrap;gap:8px;}.seg input{position:absolute;opacity:0;pointer-events:none;}.seg label{border:1px solid var(--line);border-radius:999px;padding:8px 16px;cursor:pointer;background:var(--bg);min-height:40px;display:inline-flex;align-items:center;}.seg input:checked + label{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);}.seg input:focus-visible + label,button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}button.primary{font:inherit;font-weight:700;background:var(--accent);color:var(--accent-ink);border:0;border-radius:4px;padding:12px 20px;min-height:46px;cursor:pointer;}button.ghost{font:inherit;background:transparent;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:8px 14px;min-height:40px;cursor:pointer;}.note{font-size:0.8rem;color:var(--ink-2);}.sample{font-size:0.82rem;color:var(--ink-2);}.pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;}.pillar{background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:10px 4px;text-align:center;min-width:0;}.pillar .ph{font-size:0.72rem;color:var(--ink-2);letter-spacing:0.1em;}.glyph{font-family:var(--f-serif);font-weight:700;font-size:2.1rem;line-height:1.15;display:block;}.glyph small{display:block;font-family:var(--f-body);font-weight:400;font-size:0.72rem;color:var(--ink-2);line-height:1.3;}.pillar .row{margin-top:6px;padding-top:6px;border-top:1px dashed var(--line);}.pillar.me{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent);}.pillar.empty .glyph{color:var(--ink-2);font-size:1.4rem;opacity:0.6;}.el-wood{color:var(--wood);}.el-fire{color:var(--fire);}.el-earth{color:var(--earth);}.el-metal{color:var(--metal);}.el-water{color:var(--water);}.bars{display:flex;flex-direction:column;gap:8px;}.bar{display:grid;grid-template-columns:64px 1fr 28px;align-items:center;gap:10px;font-size:0.85rem;}.bar .track{height:10px;background:var(--bg);border:1px solid var(--line);border-radius:2px;overflow:hidden;}.bar .fill{height:100%;}.bar b{font-variant-numeric:tabular-nums;text-align:right;}.tags{display:flex;flex-wrap:wrap;gap:8px;}.tag{border:1px solid var(--line);border-radius:3px;padding:2px 10px;font-size:0.8rem;color:var(--ink-2);background:var(--bg);}.dm h3 span{color:var(--accent);}.slots{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}.slot{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center;min-width:0;}.slot .pos{font-size:0.78rem;letter-spacing:0.12em;color:var(--ink-2);}.stage{perspective:800px;width:100%;max-width:130px;aspect-ratio:5 / 8;}.flipper{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform 0.7s ease;}.flipper.flipped{transform:rotateY(180deg);}.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:6px;overflow:hidden;}.face.front{transform:rotateY(180deg);background:var(--surface);border:1px solid var(--line);}.face.front svg{width:100%;height:100%;display:block;}.face.front.rev svg{transform:rotate(180deg);}.ghostslot{border:1px dashed var(--line);border-radius:6px;width:100%;height:100%;display:grid;place-items:center;color:var(--ink-2);font-size:0.8rem;}.cap{min-height:3.4em;font-size:0.85rem;}.cap b{display:block;font-family:var(--f-serif);font-size:0.95rem;}.cap span{color:var(--ink-2);font-size:0.78rem;}.deck{display:grid;grid-template-columns:repeat(auto-fill,minmax(34px,1fr));gap:8px;}.pick{position:relative;padding:0;border:0;background:none;cursor:pointer;aspect-ratio:5 / 8;border-radius:5px;transition:transform 0.2s ease,opacity 0.2s ease;}.pick svg{width:100%;height:100%;display:block;border-radius:5px;}.pick:hover{transform:translateY(-3px);}.pick.on{transform:translateY(-8px);outline:2px solid var(--accent);outline-offset:2px;}.pick.off{opacity:0.3;cursor:default;}.pick .n{position:absolute;top:-8px;right:-6px;background:var(--accent);color:var(--accent-ink);width:20px;height:20px;border-radius:50%;font-size:0.75rem;font-weight:700;display:grid;place-items:center;}.back-bg{fill:var(--back);}.back-line{stroke:var(--gold);fill:none;}.reading{display:flex;flex-direction:column;gap:14px;}.card-read{display:grid;grid-template-columns:78px 1fr;gap:14px;align-items:start;}.card-read .mini{width:78px;aspect-ratio:5 / 8;border:1px solid var(--line);border-radius:4px;overflow:hidden;background:var(--surface);}.card-read .mini svg{width:100%;height:100%;display:block;}.card-read .mini.rev svg{transform:rotate(180deg);}.card-read .txt{min-width:0;}.card-read .txt .label{margin-bottom:2px;}.card-read .txt h3{margin-bottom:4px;}.synth{border-left:3px solid var(--accent);padding-left:14px;display:flex;flex-direction:column;gap:10px;}.placeholder{color:var(--ink-2);text-align:center;padding:26px 12px;border:1px dashed var(--line);border-radius:6px;}.actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;}footer{font-size:0.8rem;color:var(--ink-2);display:flex;flex-direction:column;gap:6px;}@media (max-width:420px){h1{font-size:1.9rem;}.glyph{font-size:1.7rem;}.card-read{grid-template-columns:64px 1fr;}.card-read .mini{width:64px;}}@media (prefers-reduced-motion:reduce){.flipper,.pick{transition:none;}}.sc{display:flex;align-items:baseline;gap:6px;margin-bottom:4px}.sc b{font-family:var(--f-display);font-weight:400;font-size:2rem;line-height:1;color:var(--accent)}.sc strong{margin-left:6px}.match-track{height:8px}.traits .track{height:8px;background:var(--bg);border:1px solid var(--line);border-radius:2px;overflow:hidden;margin-bottom:8px}.traits .track .fill{height:100%}.tn{font-size:.7rem;border:1px solid currentColor;border-radius:3px;padding:0 6px;margin-right:6px}.tn.g{color:var(--wood)}.tn.n{color:var(--ink-2)}.tn.c{color:var(--fire)}details summary{cursor:pointer;color:var(--accent);margin-top:8px}input[type="date"],input[type="time"]{display:block;max-width:100%;min-width:0;-webkit-appearance:none;appearance:none;text-align:center}input::-webkit-date-and-time-value{text-align:center;min-height:1.2em}.dsel{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:4px}.dsel select{font:inherit;font-size:.85rem;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:4px 0;min-height:36px;min-width:0;width:100%;text-align:center;text-align-last:center;-webkit-appearance:none;appearance:none}body{font-size:14px;line-height:1.5;padding-block:12px 24px}.wrap{gap:14px}section{gap:8px}h1{font-size:1.45rem}h2{font-size:1.05rem}.lede{font-size:.8rem;margin-top:2px;line-height:1.45}.brand{gap:10px}#logo{width:34px;height:34px;border-radius:8px}.panel{padding:10px 12px}form{gap:8px;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) 38px}.field{gap:2px}input[type="date"],input[type="time"]{padding:4px 6px;min-height:36px}.chk{width:38px;height:38px}.chk-l{font-size:.78rem}.check{font-size:.78rem;gap:6px}.check input{width:15px;height:15px}.seg{gap:6px}.seg label{padding:3px 12px;min-height:30px}button.primary{padding:6px 16px;min-height:36px}button.ghost{padding:4px 12px;min-height:30px}.recs{gap:6px}.rec button{min-height:30px;padding:3px 10px}.pillars{gap:6px}.pillar{padding:6px 2px}.glyph{font-size:1.5rem;line-height:1.1}.glyph small{font-size:.66rem;line-height:1.2}.pillar .row{margin-top:3px;padding-top:3px}.bars{gap:4px}.bar{font-size:.8rem;gap:8px}.bar .track{height:8px}.tags{gap:5px}.tag{padding:0 8px;font-size:.75rem}.traits dl{gap:4px 10px;margin-top:6px;font-size:.85rem}.slots{gap:8px}.slot{gap:4px}.stage{max-width:78px}.cap{min-height:2.8em;font-size:.78rem}.cap b{font-size:.85rem}.cap span{font-size:.7rem}.deck{grid-template-columns:repeat(auto-fill,minmax(26px,1fr));gap:4px}.pick.on{transform:translateY(-4px)}.pick .n{width:16px;height:16px;font-size:.65rem;top:-5px;right:-4px}.reading{gap:8px}.card-read{grid-template-columns:52px 1fr;gap:10px}.card-read .mini{width:52px}.card-read .txt h3{margin-bottom:0;font-size:.95rem}.synth{gap:6px;padding-left:10px}.placeholder{padding:10px}footer{font-size:.7rem;gap:2px}.label{font-size:.68rem}.note,.sample{font-size:.75rem;line-height:1.4}</style>
@@ -29,16 +29,19 @@
 <div class="field">
 <span>생년월일 (양력)</span>
 <div class="dsel" data-for="birth"></div><input type="hidden" id="birth" value="1985-05-15">
-</div>
-<div class="field">
-<label for="btime">태어난 시각</label>
-<input type="time" id="btime" value="07:30">
-<label class="check"><input type="checkbox" id="unknown"> 시각을 모릅니다</label>
+<span>태어난 시 · 십이시 선택 (24시 입력은 참고)</span>
+<div class="tm"><select id="bsi" aria-label="십이시"></select><input type="time" id="btime" value="07:30" aria-label="태어난 시각(24시, 참고)"><label class="check"><input type="checkbox" id="unknown"> 모름</label></div>
+<small class="note info" id="binfo"></small>
 </div>
 <div class="field">
 <span class="chk-l">저장</span>
 <button type="button" class="chk" id="chk" aria-pressed="false" aria-label="이 생년월일과 시각을 저장" title="체크하면 저장 목록에 남습니다"><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path class="bm" d="M6 3h12v18l-6-4-6 4z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path class="mk" d="M9 10.2l2.2 2.2L15.2 8" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 </div>
+<details class="field full adv"><summary>정밀 설정 · 출생지 · 성별 · 자시 기준</summary><div class="advg">
+<label>출생지(경도 보정)<select id="opl"></select></label>
+<label>성별(대운 계산용)<select id="og"><option value="">선택 안 함</option><option value="m">남</option><option value="f">여</option></select></label>
+<label>23시대 자시<select id="oz"><option value="n">야자시: 일주는 당일</option><option value="j">조자시: 23시에 일주 변경</option></select></label>
+</div></details>
 <div class="field full" id="recwrap">
 <div class="recs" id="recs"></div>
 </div>
@@ -52,8 +55,8 @@
 <section id="match">
 <h2>궁합 · 상대 생년월일 입력</h2>
 <form id="pform" class="panel">
-<div class="field"><span>생년월일 (양력)</span><div class="dsel" data-for="pbirth"></div><input type="hidden" id="pbirth" value="1987-09-23"></div>
-<div class="field"><label for="ptime">태어난 시각</label><input type="time" id="ptime" value="14:00"><label class="check"><input type="checkbox" id="punknown"> 시각을 모릅니다</label></div>
+<div class="field"><span>생년월일 (양력)</span><div class="dsel" data-for="pbirth"></div><input type="hidden" id="pbirth" value="1987-09-23"><span>태어난 시 · 십이시 선택 (24시 입력은 참고)</span><div class="tm"><select id="psi" aria-label="십이시"></select><input type="time" id="ptime" value="14:00" aria-label="태어난 시각(24시, 참고)"><label class="check"><input type="checkbox" id="punknown"> 모름</label></div>
+<small class="note info" id="pinfo"></small></div>
 <div class="field">
 <span class="chk-l">저장</span>
 <button type="button" class="chk" id="pchk" aria-pressed="false" aria-label="상대 생년월일과 시각을 저장" title="체크하면 저장 목록에 남습니다"><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path class="bm" d="M6 3h12v18l-6-4-6 4z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path class="mk" d="M9 10.2l2.2 2.2L15.2 8" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
@@ -74,31 +77,60 @@
 <section id="reading" aria-live="polite"></section>
 <footer>
 <p>사주와 타로는 스스로를 돌아보는 도구입니다. 결과는 재미와 참고용이며, 건강, 재정, 법률 결정은 전문가와 상의하세요.</p>
-<p>양력 기준으로 계산하며, 절기가 바뀌는 날 전후에 태어났다면 만세력과 하루 정도 차이가 날 수 있습니다. 23시대 출생은 당일 자시로 계산합니다.</p>
+<p>양력 기준이며 절기는 태양 황경 15° 지점을 천문 계산해 분 단위로 반영합니다(만세력과 수 분 차이가 날 수 있어, 절입 시각 근처 출생은 확인하세요). 1954~61년 +8:30 표준시와 서머타임, 출생지 경도 보정을 적용합니다.</p>
 </footer>
 </div>
 <script>const STEM_K=[...'갑을병정무기경신임계'], STEM_H=[...'甲乙丙丁戊己庚辛壬癸'];
 const BR_K=[...'자축인묘진사오미신유술해'], BR_H=[...'子丑寅卯辰巳午未申酉戌亥'];
 const ANI=['쥐','소','호랑이','토끼','용','뱀','말','양','원숭이','닭','개','돼지'];
 const S_EL=[0,0,1,1,2,2,3,3,4,4], B_EL=[4,2,0,0,2,1,1,2,3,3,2,4];
-const C21=[5.4055,3.87,5.63,4.81,5.52,5.678,7.108,7.5,7.646,8.318,7.438,7.18];
-const C20=[6.11,4.6295,6.3826,5.59,6.318,6.5,7.928,8.35,8.44,9.098,8.218,7.9];
-function termDay(y,i){
-const c=y>=2000?C21:C20, Y=y%100;
-const L=i<2?Math.floor((Y-1)/4):Math.floor(Y/4);
-return Math.floor(Y*0.2422+c[i])-L;
-}
-function calcSaju(y,m,d,h){
-const sy=(m<2||(m===2&&d<termDay(y,1)))?y-1:y;
-const yi=((sy-4)%60+60)%60, ys=yi%10;
-const k=d>=termDay(y,m-1)?m-1:m-2;
-const mb=(k+1+12)%12, mo=(mb-2+12)%12;
-const ms=((ys%5)*2+2+mo)%10;
-const days=Math.round((Date.UTC(y,m-1,d)-Date.UTC(1900,0,1))/86400000);
-const di=(((10+days)%60)+60)%60, ds=di%10, db=di%12;
+const JIE=[315,345,15,45,75,105,135,165,195,225,255,285], JIE_N=['입춘','경칩','청명','입하','망종','소서','입추','백로','한로','입동','대설','소한'];
+function sunLon(jd){const T=(jd-2451545)/36525,R=Math.PI/180;
+const L0=280.46646+36000.76983*T+0.0003032*T*T,M=(357.52911+35999.05029*T-0.0001537*T*T)*R;
+const C=(1.914602-0.004817*T-0.000014*T*T)*Math.sin(M)+(0.019993-0.000101*T)*Math.sin(2*M)+0.000289*Math.sin(3*M);
+return(((L0+C-0.00569-0.00478*Math.sin((125.04-1934.136*T)*R))%360)+360)%360;}
+function termJD(y,lon){let jd=Date.UTC(y,2,20)/864e5+2440587.5+lon*365.2422/360;if(lon>=270)jd-=365.2422;
+for(let i=0;i<30;i++){const d=((lon-sunLon(jd)+540)%360)-180;jd+=d*365.2422/360;if(Math.abs(d)<1e-7)break;}return jd;}
+const DTT=[[1900,-3],[1920,21],[1940,24],[1960,33],[1980,51],[2000,64],[2026,69],[2050,93],[2100,203]];
+function dT(y){for(let i=1;i<9;i++)if(y<=DTT[i][0]){const a=DTT[i-1],b=DTT[i];return a[1]+(b[1]-a[1])*(y-a[0])/(b[0]-a[0]);}return 203;}
+const TCH={};
+function termMs(Y,lon){const k=Y+'_'+lon;if(TCH[k]!=null)return TCH[k];const r=lon*Math.PI/180;
+const c=5.406+2.7715*Math.sin(r)+5.4673*Math.cos(r)+1.1875*Math.sin(2*r)-.866*Math.cos(2*r)-(dT(Y)-69)/60;
+return TCH[k]=(termJD(Y,lon)-2440587.5)*864e5+c*6e4;}
+const KDST=[[1948,6,1,9,13,0,0],[1949,4,3,9,11,0,0],[1950,4,1,9,10,0,0],[1951,5,6,9,9,0,0],[1955,5,5,9,9,0,0],[1956,5,20,9,30,0,0],[1957,5,5,9,22,0,0],[1958,5,4,9,21,0,0],[1959,5,3,9,20,0,0],[1960,5,1,9,18,0,0],[1987,5,10,10,11,2,3],[1988,5,8,10,9,2,3]];
+function kOff(y,m,d,H){const t=y*10000+m*100+d;let off=(t<19120101||(t>=19540321&&t<19610810))?510:540,dst=false;
+for(const r of KDST)if(r[0]===y){const a=y*10000+r[1]*100+r[2],b=y*10000+r[3]*100+r[4];
+if((t>a||(t===a&&H>=r[5]))&&(t<b||(t===b&&H<r[6]))){dst=true;off+=60;}}
+return{off,dst};}
+const SI_L={ya:'야자시 23~24시',jo:'조자시 00~01시'};
+BR_K.forEach((n,i)=>{if(i)SI_L[i]=n+'시 '+String((i*2+23)%24).padStart(2,'0')+'~'+String((i*2+1)%24).padStart(2,'0')+'시';});
+const siFromClock=(H,M)=>{const t=H*60+M;return t>=1380?'ya':t<60?'jo':String(Math.floor((t+60)/120));};
+const siMid=v=>v==='ya'?[23,30]:v==='jo'?[0,30]:[v*2,0];
+function calcSaju(y,m,d,tm,o){
+o=o||{lon:null,z:'n'};
+let hh=null,mm=0,bySi=false;
+if(tm){if(tm.si!=null&&tm.si!==''){bySi=true;const c=siMid(tm.si);hh=c[0];mm=c[1];}else if(tm.hh!=null){hh=tm.hh;mm=tm.mm||0;}}
+const hasT=hh!=null,H0=hasT?hh:12;
+const clock=Date.UTC(y,m-1,d,H0,hasT?mm:0),ko=kOff(y,m,d,H0),inst=clock-ko.off*6e4;
+const solar=(hasT&&!bySi&&o.lon!=null)?inst+o.lon*24e4:clock;
+const D=new Date(solar),SY=D.getUTCFullYear(),SM=D.getUTCMonth()+1,SD=D.getUTCDate(),SH=D.getUTCHours(),SN=D.getUTCMinutes();
+const late=hasT&&SH>=23;
+let dayMs=Date.UTC(SY,SM-1,SD);if(late&&o.z==='j')dayMs+=864e5;
+const di=((10+Math.round((dayMs-Date.UTC(1900,0,1))/864e5))%60+60)%60;
+const Y0=new Date(inst+324e5).getUTCFullYear(),T=[];
+for(let yy=Y0-1;yy<=Y0+1;yy++)JIE.forEach((l,k)=>T.push({y:yy,k,ms:termMs(yy,l)}));
+T.sort((a,b)=>a.ms-b.ms);
+let pi=0;T.forEach((t,i)=>{if(t.ms<=inst)pi=i;});
+const prev=T[pi],next=T[pi+1],mb=(prev.k+2)%12;
+let sy=Y0-1;T.forEach(t=>{if(t.k===0&&t.ms<=inst)sy=t.y;});
+const yi=((sy-4)%60+60)%60,ys=yi%10,mo=(mb-2+12)%12,ms=((ys%5)*2+2+mo)%10;
+let mi=0;for(let x=0;x<60;x++)if(x%10===ms&&x%12===mb)mi=x;
 let hp=null;
-if(h!=null){ const hb=h>=23?0:Math.floor((h+1)/2); hp={s:((ds%5)*2+hb)%10,b:hb}; }
-return {year:{s:ys,b:yi%12},month:{s:ms,b:mb},day:{s:ds,b:db},hour:hp,sy};
+if(hasT){const hb=late?0:Math.floor((SH*60+SN+60)/120),dsh=(late&&o.z==='n')?(di+1)%10:di%10;hp={s:((dsh%5)*2+hb)%10,b:hb};}
+let amb=null;
+if(!hasT){const a=Date.UTC(y,m-1,d)-ko.off*6e4;T.forEach(t=>{if(t.ms>=a&&t.ms<a+864e5)amb=t;});}
+return{year:{s:ys,b:yi%12},month:{s:ms,b:mb},day:{s:di%10,b:di%12},hour:hp,sy,di,yi,mi,inst,prev,next,clock,solar,dst:ko.dst,
+hasT,bySi,si:hasT?siFromClock(SH,SN):null,SH,SN,late,amb,shift:Math.round((solar-clock)/6e4)};
 }
 const EL_K=['목(木)','화(火)','토(土)','금(金)','수(水)'];
 const EL_N=['나무','불','흙','쇠','물'];
@@ -258,50 +290,124 @@ const fs=c[0].length>8?6.6:c[0].length>5?7.6:9.5;
 return `<svg viewBox="0 0 100 160" style="--c:var(--${el});color:var(--${el})" aria-hidden="true"><rect x="2.5" y="2.5" width="95" height="155" rx="3" fill="var(--surface)" stroke="var(--line)"/><rect x="7" y="7" width="86" height="146" fill="none" stroke="var(--c)" stroke-opacity=".55" stroke-width=".7"/><text x="50" y="21" text-anchor="middle" font-family="Song Myung,serif" font-size="11" fill="var(--ink)">${top}</text>${mj?'':use(s,17,19,9)+use(s,83,19,9)}${art}<text x="50" y="148" text-anchor="middle" font-family="Song Myung,serif" font-size="${fs}" fill="var(--ink)">${esc(c[0])}</text></svg>`;
 }
 let SAJU=null, DMEL=0, WEAK=0, REL_YEAR=0;
-function pillarHTML(label,p,isDay,empty){
+const SS=['비견','겁재','식신','상관','편재','정재','편관','정관','편인','정인'];
+const HID=[[8,9],[9,7,5],[4,2,0],[0,1],[1,9,4],[4,6,2],[2,5,3],[3,1,5],[4,8,6],[6,7],[7,3,4],[4,0,8]];
+const ssOf=(dm,t)=>((S_EL[t]-S_EL[dm]+5)%5)*2+((t%2===dm%2)?0:1);
+const UN=['장생','목욕','관대','건록','제왕','쇠','병','사','묘','절','태','양'],UN_S=[11,6,2,9,2,9,5,0,8,3];
+const unOf=(dm,b)=>dm%2===0?((b-UN_S[dm]+12)%12):((UN_S[dm]-b+12)%12);
+const mainSt=b=>HID[b][HID[b].length-1];
+const NAP=['해중금','노중화','대림목','노방토','검봉금','산두화','간하수','성두토','백랍금','양류목','천중수','옥상토','벽력화','송백목','장류수','사중금','산하화','평지목','벽상토','금박금','복등화','천하수','대역토','채천금','상자목','대계수','사중토','천상화','석류목','대해수'];
+const XING=[[2,5],[5,8],[2,8],[1,10],[10,7],[1,7],[0,3]],HAE=[[0,7],[1,6],[2,5],[3,4],[8,11],[9,10]],PA=[[0,9],[1,4],[2,11],[3,6],[5,8],[10,7]];
+function branchRel(a,b){const r=[];
+if(a===b){if([4,6,9,11].includes(a))r.push('자형');return r;}
+if(hasP(a,b,BH))r.push('육합');if(hasP(a,b,BC))r.push('충');if(hasP(a,b,XING))r.push('형');if(hasP(a,b,HAE))r.push('해');if(hasP(a,b,PA))r.push('파');return r;}
+const LEVEL=[[.28,'극신약','일간의 힘이 매우 약해 혼자 감당하기보다 인성(공부·귀인)과 비겁(동료)의 도움을 받아야 힘이 납니다.'],[.40,'신약','주변 환경과 조력자의 영향이 큽니다. 배우고 협력할 때 안정되고, 무리한 확장은 부담이 됩니다.'],[.52,'중화','기운이 비교적 고르게 균형 잡힌 편입니다. 어느 운이 들어오느냐에 따라 쓰임이 달라집니다.'],[.65,'신강','자기 힘이 충분해 주도적으로 움직입니다. 재능을 밖으로 쓰고(식상) 현실 성과(재성·관성)로 연결할 때 빛납니다.'],[9,'극신강','자기 기운이 매우 강해 고집과 독단을 경계해야 합니다. 표현, 일, 책임으로 에너지를 덜어내는 활동이 균형을 줍니다.']];
+const GYEOK=['자립심과 독립성이 강하고 경쟁 속에서 성장합니다. 협업과 재물 나눔의 균형이 과제입니다.','승부욕과 추진력이 크지만 재물이 새기 쉽습니다. 동업과 보증은 신중해야 합니다.','여유롭고 재주가 있어 기술과 표현력이 자산입니다. 꾸준한 전문성으로 복을 쌓습니다.','두뇌 회전과 표현력, 반골 기질이 뛰어납니다. 창의, 기술, 언변에서 빛나며 윗사람과의 마찰을 조심하세요.','큰돈과 사람을 움직이는 활동가 기질이 있고 사업, 영업, 투자 감각이 있습니다. 기복 관리가 과제입니다.','성실하게 모으고 지키는 안정형입니다. 꾸준한 수입과 규칙적인 생활이 강점입니다.','책임감과 승부 근성이 강하고 압박 속에서 성과를 냅니다. 스트레스 관리와 절제가 필요합니다.','반듯하고 신뢰를 중시하며 조직에서 인정받는 타입입니다. 체면에 얽매이지 않는 유연함을 더하세요.','직관과 독창성, 특수한 분야의 재능이 있습니다. 생각이 많아 실행이 느려지거나 변덕스러워지는 것을 조심하세요.','배움과 보호를 받는 학자형입니다. 안정과 명예를 중시하며 의존과 망설임을 줄이면 좋습니다.'];
+function analyze(s){
+const dm=s.day.s,dE=S_EL[dm],arr=[s.year,s.month,s.day,s.hour],w=[0,0,0,0,0];
+[[0,1],[1,1.5],[3,1]].forEach(([i,x])=>{if(arr[i])w[S_EL[arr[i].s]]+=x;});
+const bw=[1,3,2,1.5];
+arr.forEach((p,i)=>{if(!p)return;const h=HID[p.b],n=h.length,f=n===2?[.3,.7]:[.2,.2,.6];h.forEach((t,j)=>w[S_EL[t]]+=bw[i]*f[j]);});
+const tot=w.reduce((a,b)=>a+b,0),r=(w[dE]+w[(dE+4)%5])/tot,lv=LEVEL.find(x=>r<x[0]);
+const good=e=>{const q=rel(dE,e);return q===0||q===4;};
+const deukR=good(S_EL[mainSt(s.month.b)]),deukJ=good(S_EL[mainSt(s.day.b)]);
+const gy=ssOf(dm,mainSt(s.month.b));
+const yong=[];
+if(r>=.52){const c=[1,2,3].map(k=>(dE+k)%5).sort((a,b)=>w[a]-w[b])[0];yong.push(`억부: 일간이 강해 기운을 덜어 내는 ${EL_K[c]}(${REL_N[rel(dE,c)]})이 쓰임이 됩니다.`);}
+else if(r<.40){const c=[(dE+4)%5,dE].sort((a,b)=>w[a]-w[b])[0];yong.push(`억부: 일간이 약해 힘을 보태 주는 ${EL_K[c]}(${REL_N[rel(dE,c)]})이 쓰임이 됩니다.`);}
+else yong.push('억부: 균형이 잡혀 있어 뚜렷하게 부족한 쪽이 없습니다.');
+const mb=s.month.b;
+if([11,0,1].includes(mb))yong.push('조후: 차가운 계절에 태어나 화(火)의 따뜻한 기운이 도움이 됩니다.');
+else if([5,6,7].includes(mb))yong.push('조후: 더운 계절에 태어나 수(水)의 식혀 주는 기운이 도움이 됩니다.');
+const sal=[],names=['년지','월지','일지','시지'],bs=arr.map(p=>p&&p.b);
+const g=b=>[[8,0,4],[2,6,10],[5,9,1],[11,3,7]].findIndex(x=>x.includes(b));
+[[0,'년'],[2,'일']].forEach(([i,n])=>{const k=g(bs[i]);
+[[[9,3,6,0],'도화살','매력과 인기, 이성의 관심'],[[2,8,11,5],'역마살','이동과 변화, 활동 반경'],[[4,10,1,7],'화개살','학문과 예술, 종교적 감성']].forEach(([t,nm,ds])=>{
+bs.forEach((b,j)=>{if(b!=null&&b===t[k]&&j!==i)sal.push(`${nm}(${names[j]} ${BR_K[b]}): ${ds}`);});});});
+const ty=[[1,7],[0,8],[11,9],[11,9],[1,7],[0,8],[1,7],[2,6],[5,3],[5,3]][dm];
+bs.forEach((b,j)=>{if(b!=null&&ty.includes(b))sal.push(`천을귀인(${names[j]} ${BR_K[b]}): 어려울 때 돕는 귀인`);});
+const b0=(s.di%12-s.di%10+12)%12,v=[(b0+10)%12,(b0+11)%12];
+bs.forEach((b,j)=>{if(b!=null&&j!==2&&v.includes(b))sal.push(`공망(${names[j]} ${BR_K[b]}): 비어 있는 자리, 기대와 현실의 차이`);});
+const rl=[],stems=[s.year.s,s.month.s,s.day.s,s.hour&&s.hour.s],sn=['년','월','일','시'];
+for(let i=0;i<4;i++)for(let j=i+1;j<4;j++){
+if(stems[i]!=null&&stems[j]!=null){if(hasP(stems[i],stems[j],GH))rl.push(`${sn[i]}간·${sn[j]}간 ${STEM_K[stems[i]]}${STEM_K[stems[j]]}합`);else if(hasP(stems[i],stems[j],GC))rl.push(`${sn[i]}간·${sn[j]}간 ${STEM_K[stems[i]]}${STEM_K[stems[j]]}충`);}
+if(bs[i]!=null&&bs[j]!=null)branchRel(bs[i],bs[j]).forEach(t=>rl.push(`${sn[i]}지·${sn[j]}지 ${BR_K[bs[i]]}${BR_K[bs[j]]}${t}`));}
+TRI.forEach(t=>{if(t.every(x=>bs.includes(x)))rl.push(`삼합 ${t.map(x=>BR_K[x]).join('')}`);});
+return{w,tot,r,lv,deukR,deukJ,gy,yong,sal,rl,nap:[NAP[Math.floor(s.yi/2)],NAP[Math.floor(s.di/2)]]};
+}
+function daeun(s,g){
+if(!g)return null;
+const fwd=(s.year.s%2===0)===(g==='m'),ref=fwd?s.next:s.prev,yrs=Math.abs(ref.ms-s.inst)/864e5/3;
+const age=(Date.now()-s.inst)/(365.2425*864e5),st=Math.max(1,Math.round(yrs));
+const list=[];for(let i=0;i<8;i++){const x=((s.mi+(fwd?1:-1)*(i+1))%60+60)%60;list.push({age:st+10*i,s:x%10,b:x%12});}
+let cur=-1;for(let i=0;i<8;i++)if(age>=yrs+10*i)cur=i;
+return{fwd,list,cur,st};
+}
+const PL={'보정 안 함':null,'서울':126.98,'인천':126.70,'수원':127.03,'춘천':127.73,'강릉':128.90,'대전':127.38,'청주':127.49,'전주':127.15,'광주':126.85,'대구':128.60,'포항':129.37,'울산':129.31,'부산':129.08,'창원':128.68,'제주':126.53};
+const IDM={b:'#birth',t:'#btime',u:'#unknown',s:'#bsi',i:'#binfo'},IDP={b:'#pbirth',t:'#ptime',u:'#punknown',s:'#psi',i:'#pinfo'};
+const fmtK=ms=>{const d=new Date(ms+324e5);return `${d.getUTCMonth()+1}/${d.getUTCDate()} ${String(d.getUTCHours()).padStart(2,'0')}:${String(d.getUTCMinutes()).padStart(2,'0')}`;};
+const p2=n=>String(n).padStart(2,'0');
+function curO(){const pl=$('#opl').value;return{lon:PL[pl]==null?null:PL[pl],z:$('#oz').value,g:$('#og').value,pl};}
+function readIn(c){
+const v=$(c.b).value;if(!v)return null;const [y,m,d]=v.split('-').map(Number);let tm=null;
+if(!$(c.u).checked){const tv=$(c.t).value,si=$(c.s).value;if(tv){const a=tv.split(':').map(Number);tm={hh:a[0],mm:a[1]};}else if(si)tm={si};}
+return{y,m,d,tm};
+}
+function infoLine(c,s){
+const o=curO(),t=[];
+if(!s.hasT)t.push('시각을 몰라 시주는 계산하지 않습니다');
+else if(s.bySi)t.push(`${SI_L[$(c.s).value]} 선택 · 출생지 보정 없이 적용`);
+else{t.push(`입력 ${$(c.t).value} → ${o.lon!=null?'경도 보정('+o.pl+')':'보정 없음'} ${s.shift}분${s.dst?' · 서머타임 반영':''} = ${p2(s.SH)}:${p2(s.SN)} · ${SI_L[s.si]}`);
+if(s.late)t.push(o.z==='n'?'자시 23시대: 일주는 당일, 시주는 다음 날 일간 기준':'자시 23시대: 일주가 다음 날로 넘어감');}
+const dn=Math.abs(s.inst-s.prev.ms),dx=Math.abs(s.next.ms-s.inst);
+if(s.hasT&&Math.min(dn,dx)<18e6){const r=dn<dx?s.prev:s.next;t.push(`※ ${JIE_N[r.k]} 절입(${fmtK(r.ms)})에 가까워 월주가 바뀔 수 있습니다(절입 시각은 수 분 오차 가능)`);}
+if(s.amb)t.push(`※ 이날은 ${JIE_N[s.amb.k]} 절입일(${fmtK(s.amb.ms)})이라 시각을 모르면 월주가 달라질 수 있습니다`);
+$(c.i).textContent=t.join(' · ');
+}
+function syncIn(c){
+const i=readIn(c);if(!i)return;const s=calcSaju(i.y,i.m,i.d,i.tm,curO());
+if($(c.t).value&&!$(c.u).checked&&s.si!=null)$(c.s).value=s.si;
+infoLine(c,s);
+}
+let sampleNow=true;
+function pillarHTML(label,p,isDay,empty,dm){
 if(empty) return `<div class="pillar empty"><div class="ph">${label}</div><span class="glyph">?<small>모름</small></span><div class="row"><span class="glyph">?<small>&nbsp;</small></span></div></div>`;
-const se=S_EL[p.s], be=B_EL[p.b];
+const se=S_EL[p.s], be=B_EL[p.b], x=dm!=null;
 return `<div class="pillar${isDay?' me':''}"><div class="ph">${label}</div>
-<span class="glyph el-${EL_C[se]}">${STEM_H[p.s]}<small>${STEM_K[p.s]} · ${EL_N[se]}</small></span>
-<div class="row"><span class="glyph el-${EL_C[be]}">${BR_H[p.b]}<small>${BR_K[p.b]} · ${ANI[p.b]}</small></span></div></div>`;
+<span class="glyph el-${EL_C[se]}">${STEM_H[p.s]}<small>${STEM_K[p.s]} · ${EL_N[se]}</small></span>${x?`<div class="ss">${isDay?'일간':SS[ssOf(dm,p.s)]}</div>`:''}
+<div class="row"><span class="glyph el-${EL_C[be]}">${BR_H[p.b]}<small>${BR_K[p.b]} · ${ANI[p.b]}</small></span>${x?`<div class="ss">${HID[p.b].map(t=>STEM_K[t]).join('')}</div><div class="ss">${SS[ssOf(dm,mainSt(p.b))]} · ${UN[unOf(dm,p.b)]}</div>`:''}</div></div>`;
 }
 function renderSaju(s,isSample){
 SAJU=s;
-const cnt=[0,0,0,0,0], w=[0,0,0,0,0];
-const add=(el,x,raw)=>{ w[el]+=x; if(raw) cnt[el]++; };
-['year','month','day','hour'].forEach(k=>{
-const p=s[k]; if(!p) return;
-add(S_EL[p.s],1,true); add(B_EL[p.b],1,true);
-});
-w[B_EL[s.month.b]]+=1.5;
-const dm=S_EL[s.day.s]; DMEL=dm;
-const total=w.reduce((a,b)=>a+b,0);
-const support=(w[dm]+w[(dm+4)%5])/total;
-const strong=support>=0.5;
-let weak=0; for(let i=1;i<5;i++) if(w[i]<w[weak]) weak=i;
-WEAK=weak;
-const strongest=w.indexOf(Math.max(...w));
-const max=Math.max(...cnt,1);
-const today=new Date(), ty=today.getFullYear();
-const tp=calcSaju(ty,today.getMonth()+1,today.getDate(),null);
-const yEl=S_EL[tp.year.s]; REL_YEAR=rel(dm,yEl);
-const dayEl=S_EL[tp.day.s], dayRel=rel(dm,dayEl);
-const d=DM[s.day.s];
+const o=curO(),A=analyze(s),dm=S_EL[s.day.s];DMEL=dm;
+const cnt=[0,0,0,0,0];
+['year','month','day','hour'].forEach(k=>{const p=s[k];if(!p)return;cnt[S_EL[p.s]]++;cnt[B_EL[p.b]]++;});
+const w=A.w,strong=A.r>=.52;
+let weak=0;for(let i=1;i<5;i++)if(w[i]<w[weak])weak=i;WEAK=weak;
+const strongest=w.indexOf(Math.max(...w)),mx=Math.max(...w);
+const today=new Date(),ty=today.getFullYear();
+const tp=calcSaju(ty,today.getMonth()+1,today.getDate(),{hh:12,mm:0},{lon:null,z:'n'});
+REL_YEAR=rel(dm,S_EL[tp.year.s]);const dayRel=rel(dm,S_EL[tp.day.s]);
+const d=DM[s.day.s],sdm=s.day.s;
+const un=daeun(s,o.g);
+const yrBr=BR_K[tp.year.b];
+const yrHit=[['년지',s.year.b],['월지',s.month.b],['일지',s.day.b],['시지',s.hour&&s.hour.b]].filter(x=>x[1]!=null).map(x=>({n:x[0],b:x[1],r:branchRel(tp.year.b,x[1])})).filter(x=>x.r.length).map(x=>`${x.n} ${BR_K[x.b]}${'축인진신술'.includes(BR_K[x.b])?'과':'와'} ${x.r.join('·')}`);
 $('#saju').innerHTML=`
 <h2>나의 사주 네 기둥</h2>
 ${isSample?'<p class="sample">예시 생년월일(1985년 5월 15일 오전 7시 30분)로 계산한 화면입니다. 위에서 직접 입력해 보세요.</p>':''}
 <div class="panel">
 <div class="pillars">
-${pillarHTML('시주',s.hour,false,!s.hour)}${pillarHTML('일주',s.day,true)}${pillarHTML('월주',s.month,false)}${pillarHTML('년주',s.year,false)}
+${pillarHTML('시주',s.hour,false,!s.hour,sdm)}${pillarHTML('일주',s.day,true,false,sdm)}${pillarHTML('월주',s.month,false,false,sdm)}${pillarHTML('년주',s.year,false,false,sdm)}
 </div>
+<p class="note" style="margin-top:6px;font-size:.72rem">각 기둥 아래: 십성 · 지장간 · 12운성(일간 기준). 년주는 입춘 기준 ${s.sy}년, 월주는 ${JIE_N[s.prev.k]}(${fmtK(s.prev.ms)}) 이후이며 다음 절기는 ${JIE_N[s.next.k]}(${fmtK(s.next.ms)})입니다. 절입 시각은 천문 계산값입니다.</p>
 </div>
 <div class="panel dm">
 <div class="label">일간 · 나를 나타내는 글자</div>
-<h3><span>${STEM_K[s.day.s]}(${STEM_H[s.day.s]})</span> ${d[0]} 같은 사람</h3>
+<h3><span>${STEM_K[sdm]}(${STEM_H[sdm]})</span> ${d[0]} 같은 사람</h3>
 <p>${d[1]}</p>
 <div class="tags" style="margin-top:10px">
 <span class="tag">${EL_K[dm]} 일간</span>
-<span class="tag">${strong?'자기 기운이 센 편':'주변 영향을 많이 받는 편'}</span>
+<span class="tag">${A.lv[1]} (${Math.round(A.r*100)}%)</span>
 <span class="tag">가장 많은 기운 ${EL_K[strongest]}</span>
 <span class="tag">${cnt[weak]===0?'없는 기운':'가장 약한 기운'} ${EL_K[weak]}</span>
 </div>
@@ -309,9 +415,9 @@ ${pillarHTML('시주',s.hour,false,!s.hour)}${pillarHTML('일주',s.day,true)}${
 <div class="panel traits">
 <div class="label">주요 특징과 성향</div>
 <dl>
-<dt>한 줄 요약</dt><dd>${d[0]}에 비유되는 ${EL_K[dm]} 일간입니다. ${strong?'자기 기운이 센 편이라 주관이 뚜렷하고 스스로 길을 엽니다.':'주변 사람과 환경의 영향을 많이 받는 편이라 협력할 때 힘이 커집니다.'}</dd>
-<dt>강점</dt><dd>${STR[s.day.s][0]}.</dd>
-<dt>보완할 점</dt><dd>${STR[s.day.s][1]}${strong?' 남의 의견을 듣는 여유가 균형을 잡아 줍니다.':' 좋은 사람과 환경을 고르는 일이 특히 중요합니다.'}</dd>
+<dt>한 줄 요약</dt><dd>${d[0]}에 비유되는 ${EL_K[dm]} 일간입니다. ${strong?'자기 기운이 센 편이라 주관이 뚜렷하고 스스로 길을 엽니다.':A.r<.40?'주변 사람과 환경의 영향을 많이 받는 편이라 협력할 때 힘이 커집니다.':'자기 기운과 주변 영향이 균형을 이루어 상황에 따라 유연하게 움직입니다.'}</dd>
+<dt>강점</dt><dd>${STR[sdm][0]}.</dd>
+<dt>보완할 점</dt><dd>${STR[sdm][1]}${strong?' 남의 의견을 듣는 여유가 균형을 잡아 줍니다.':A.r<.40?' 좋은 사람과 환경을 고르는 일이 특히 중요합니다.':' 극단으로 치우치지 않는 균형감을 지키세요.'}</dd>
 <dt>많은 기운</dt><dd><b class="el-${EL_C[strongest]}">${EL_K[strongest]}</b> ${EL_MANY[strongest]}</dd>
 <dt>${cnt[weak]===0?'없는 기운':'약한 기운'}</dt><dd><b class="el-${EL_C[weak]}">${EL_K[weak]}</b> ${EL_FEW[weak]}</dd>
 <dt>태어난 계절</dt><dd>${BR_K[s.month.b]}(${BR_H[s.month.b]})월, ${SEASON[s.month.b]}에 태어났습니다. ${SEA_TXT[SEASON[s.month.b]]}</dd>
@@ -319,13 +425,28 @@ ${pillarHTML('시주',s.hour,false,!s.hour)}${pillarHTML('일주',s.day,true)}${
 </dl>
 </div>
 <div class="panel">
-<div class="label" style="margin-bottom:10px">오행 분포 (글자 수)</div>
-<div class="bars">${[0,1,2,3,4].map(i=>`<div class="bar"><span class="el-${EL_C[i]}">${EL_K[i]}</span><div class="track"><div class="fill" style="width:${cnt[i]/max*100}%;background:var(--${EL_C[i]})"></div></div><b>${cnt[i]}</b></div>`).join('')}</div>
+<div class="label" style="margin-bottom:10px">오행 세력 (지장간 포함 · 월령 가중)</div>
+<div class="bars">${[0,1,2,3,4].map(i=>`<div class="bar"><span class="el-${EL_C[i]}">${EL_K[i]}</span><div class="track"><div class="fill" style="width:${w[i]/mx*100}%;background:var(--${EL_C[i]})"></div></div><b>${Math.round(w[i]/A.tot*100)}%</b></div>`).join('')}</div>
 </div>
 <div class="panel traits">
-<div class="label">${ty}년 ${STEM_K[tp.year.s]}${BR_K[tp.year.b]}년의 흐름 · ${REL_N[REL_YEAR]}운</div>
+<div class="label">정밀 분석 (참고)</div>
+<dl>
+<dt>신강·신약</dt><dd><b>${A.lv[1]}</b> · 득령 ${A.deukR?'○':'×'} · 득지 ${A.deukJ?'○':'×'}<br>${A.lv[2]}</dd>
+<dt>격국</dt><dd><b>${SS[A.gy]}격</b> (월지 ${BR_K[s.month.b]}의 정기 기준)<br>${GYEOK[A.gy]}</dd>
+<dt>용신 참고</dt><dd>${A.yong.join('<br>')}</dd>
+<dt>납음</dt><dd>년주 ${STEM_K[s.year.s]}${BR_K[s.year.b]} ${A.nap[0]} · 일주 ${STEM_K[sdm]}${BR_K[s.day.b]} ${A.nap[1]}</dd>
+<dt>신살</dt><dd>${A.sal.length?A.sal.join('<br>'):'뚜렷한 신살이 없습니다.'}</dd>
+<dt>합·충·형·해</dt><dd>${A.rl.length?A.rl.join(', '):'기둥끼리 두드러진 합충은 없습니다.'}</dd>
+</dl>
+<p class="note" style="margin-top:8px;font-size:.72rem">용신과 격국은 유파마다 판단이 다른 참고 자료입니다. 절대적인 결론으로 받아들이지 마세요.</p>
+</div>
+${un?`<div class="panel traits"><div class="label">대운 · ${un.fwd?'순행':'역행'} · 만 ${un.st}세부터 10년 단위</div>
+<div class="dun">${un.list.map((l,i)=>`<div class="${i===un.cur?'cur':''}"><small>${l.age}세</small><b>${STEM_K[l.s]}${BR_K[l.b]}</b><small>${SS[ssOf(sdm,l.s)]}</small></div>`).join('')}</div>
+<p style="margin-top:6px">${un.cur>=0?`현재 ${STEM_K[un.list[un.cur].s]}${BR_K[un.list[un.cur].b]} 대운(${SS[ssOf(sdm,un.list[un.cur].s)]}). ${YEAR_TXT[rel(dm,S_EL[un.list[un.cur].s])]}`:'아직 첫 대운 전으로, 월주의 기운이 바탕이 되는 시기입니다.'}</p></div>`:'<p class="note">정밀 설정에서 성별을 고르면 대운(10년 단위 큰 흐름)이 표시됩니다.</p>'}
+<div class="panel traits">
+<div class="label">${ty}년 ${STEM_K[tp.year.s]}${BR_K[tp.year.b]}년의 흐름 · ${SS[ssOf(sdm,tp.year.s)]}운(${REL_N[REL_YEAR]})</div>
 <p style="margin-top:4px">${YEAR_TXT[REL_YEAR]}</p>
-<dl><dt>연애</dt><dd>${TOPIC_TXT.love[REL_YEAR]}</dd><dt>직업</dt><dd>${TOPIC_TXT.work[REL_YEAR]}</dd><dt>재물</dt><dd>${TOPIC_TXT.money[REL_YEAR]}</dd></dl>
+<dl><dt>연애</dt><dd>${TOPIC_TXT.love[REL_YEAR]}</dd><dt>직업</dt><dd>${TOPIC_TXT.work[REL_YEAR]}</dd><dt>재물</dt><dd>${TOPIC_TXT.money[REL_YEAR]}</dd>${yrHit.length?`<dt>세운 관계</dt><dd>올해 ${yrBr}(${BR_H[tp.year.b]})가 ${yrHit.join(', ')}. 해당 기둥이 가리키는 영역(년=외부, 월=직업, 일=배우자·건강, 시=자녀·말년)에서 변동이 생기기 쉽습니다.</dd>`:''}</dl>
 <p class="note" style="margin-top:10px">오늘은 ${STEM_K[tp.day.s]}${BR_K[tp.day.b]}일. ${DAY_TXT[dayRel]}</p>
 </div>`;
 renderCompat();
@@ -346,9 +467,8 @@ return {cnt,dm:S_EL[s.day.s],weak};
 function renderCompat(){
 const box=$('#matchres');if(!SAJU||!box)return;
 const v=$('#pbirth').value;if(!v){box.innerHTML='';return;}
-const [y,m,d]=v.split('-').map(Number);
-let h=null;if(!$('#punknown').checked&&$('#ptime').value)h=Number($('#ptime').value.split(':')[0]);
-const A=SAJU,B=calcSaju(y,m,d,h),a=stats(A),b=stats(B),rows=[];
+const pi=readIn(IDP);
+const A=SAJU,B=calcSaju(pi.y,pi.m,pi.d,pi.tm,curO()),a=stats(A),b=stats(B),rows=[];
 const gA=A.day.s,gB=B.day.s,pg=`나 ${STEM_K[gA]}(${STEM_H[gA]}) ↔ 상대 ${STEM_K[gB]}(${STEM_H[gB]})`;
 let sc=REL_SC[rel(a.dm,b.dm)],tx=REL_TXT[rel(a.dm,b.dm)];
 if(hasP(gA,gB,GH)){sc+=12;tx+=' 일간끼리 합이 되어 서로 끌리는 힘이 강합니다.';}
@@ -491,15 +611,12 @@ shuffle(); drawDeck(); drawSlots(false); renderReadingPlaceholder();
 $('#tarot').scrollIntoView({behavior:'smooth',block:'start'});
 }
 function run(isSample){
-const v=$('#birth').value;
-if(!v) return;
-const [y,m,d]=v.split('-').map(Number);
-let h=null;
-if(!$('#unknown').checked && $('#btime').value) h=Number($('#btime').value.split(':')[0]);
-renderSaju(calcSaju(y,m,d,h),isSample);
+sampleNow=isSample;
+const i=readIn(IDM); if(!i) return;
+const sj=calcSaju(i.y,i.m,i.d,i.tm,curO());
+renderSaju(sj,isSample); infoLine(IDM,sj);
 $('#sample-note').hidden=!isSample;
 }
-$('#unknown').addEventListener('change',e=>{ $('#btime').disabled=e.target.checked; });
 $('#form').addEventListener('submit',e=>{ e.preventDefault(); run(false); M.remember(); });
 $('#deck').addEventListener('click',e=>{ const b=e.target.closest('.pick'); if(b) onPick(Number(b.dataset.g)); });
 $('#reshuffle').addEventListener('click',resetCards);
@@ -529,17 +646,19 @@ if(!Array.isArray(st.list))st.list=[];
 if(!Array.isArray(st.plist))st.plist=[];
 const persist=()=>{try{localStorage.setItem(SKEY,JSON.stringify(st));}catch(e){}};
 function saver(c){
-const cur=()=>({b:$(c.b).value,t:$(c.t).value,u:$(c.u).checked});
-const key=r=>r.b+'|'+(r.u?'u':r.t);
+const cur=()=>({b:$(c.b).value,t:$(c.t).value,u:$(c.u).checked,s:$(c.s).value});
+const key=r=>r.b+'|'+(r.u?'u':(r.t||('s'+(r.s||''))));
+const lab=r=>r.u||(!r.t&&!r.s)?'시각 모름':r.t?esc(r.t):esc((SI_L[r.s]||'').split(' ')[0]);
 const inList=r=>st[c.list].some(x=>key(x)===key(r));
-const set=r=>{$(c.b).value=r.b;$(c.t).value=r.t||c.dt;$(c.u).checked=!!r.u;$(c.t).disabled=!!r.u;};
+const dis=()=>{const u=$(c.u).checked;$(c.t).disabled=u;$(c.s).disabled=u;};
+const set=r=>{$(c.b).value=r.b;$(c.t).value=r.t||'';$(c.s).value=r.t?'':(r.s||'');$(c.u).checked=!!r.u;dis();syncIn(c);};
 const chkUI=()=>{const v=cur(),on=!!v.b&&inList(v),b=$(c.chk);b.classList.toggle('on',on);b.setAttribute('aria-pressed',on);};
 function render(){
 const items=st[c.list],box=$(c.recs);
 $(c.wrap).hidden=!items.length;
 if(!items.length){box.innerHTML='';return;}
 const v=cur();
-box.innerHTML=items.map((r,i)=>`<span class="rec${key(r)===key(v)?' cur':''}"><button type="button" data-load="${i}">${esc(r.b)} ${r.u||!r.t?'시각 모름':esc(r.t)}<span class="tg">✓</span></button><button type="button" class="del" data-del="${i}" aria-label="저장 해제">✕</button></span>`).join('');
+box.innerHTML=items.map((r,i)=>`<span class="rec${key(r)===key(v)?' cur':''}"><button type="button" data-load="${i}">${esc(r.b)} ${lab(r)}<span class="tg">✓</span></button><button type="button" class="del" data-del="${i}" aria-label="저장 해제">✕</button></span>`).join('');
 }
 function remember(){st[c.last]=cur();persist();render();chkUI();}
 $(c.chk).addEventListener('click',()=>{const v=cur();if(!v.b)return;st[c.list]=inList(v)?st[c.list].filter(x=>key(x)!==key(v)):st[c.list].concat([v]);persist();render();chkUI();});
@@ -548,19 +667,29 @@ const t=e.target.closest('button');if(!t)return;
 if(t.dataset.load!==undefined){const r=st[c.list][+t.dataset.load];if(!r)return;set(r);c.load();remember();}
 else if(t.dataset.del!==undefined){const r=st[c.list][+t.dataset.del];if(!r)return;st[c.list]=st[c.list].filter(x=>key(x)!==key(r));persist();render();chkUI();}
 });
-[c.b,c.t,c.u].forEach(q=>$(q).addEventListener('change',()=>{chkUI();render();}));
-return {cur,set,render,remember,chkUI};
+$(c.s).addEventListener('change',()=>{$(c.t).value='';syncIn(c);});
+$(c.t).addEventListener('input',()=>syncIn(c));
+$(c.u).addEventListener('change',()=>{dis();syncIn(c);});
+$(c.b).addEventListener('change',()=>syncIn(c));
+[c.b,c.t,c.u,c.s].forEach(q=>$(q).addEventListener('change',()=>{chkUI();render();}));
+return {cur,set,render,remember,chkUI,dis};
 }
-const M=saver({b:'#birth',t:'#btime',u:'#unknown',chk:'#chk',recs:'#recs',wrap:'#recwrap',list:'list',last:'last',dt:'07:30',load:()=>run(false)});
-const P=saver({b:'#pbirth',t:'#ptime',u:'#punknown',chk:'#pchk',recs:'#precs',wrap:'#precwrap',list:'plist',last:'p',dt:'14:00',load:()=>{$('#psample').hidden=true;renderCompat();}});
+const M=saver({...IDM,chk:'#chk',recs:'#recs',wrap:'#recwrap',list:'list',last:'last',load:()=>run(false)});
+const P=saver({...IDP,chk:'#pchk',recs:'#precs',wrap:'#precwrap',list:'plist',last:'p',load:()=>{$('#psample').hidden=true;renderCompat();}});
+const siOpts='<option value="">시진 선택</option>'+['ya','jo',1,2,3,4,5,6,7,8,9,10,11].map(v=>`<option value="${v}">${SI_L[v]}</option>`).join('');
+$('#bsi').innerHTML=siOpts;$('#psi').innerHTML=siOpts;
+$('#opl').innerHTML=Object.keys(PL).map(k=>`<option>${k}</option>`).join('');
+if(!st.o)st.o={pl:'서울',z:'n',g:''};
+$('#opl').value=PL[st.o.pl]===undefined?'서울':st.o.pl;$('#oz').value=st.o.z||'n';$('#og').value=st.o.g||'';
+['#opl','#oz','#og'].forEach(q=>$(q).addEventListener('change',()=>{st.o={pl:$('#opl').value,z:$('#oz').value,g:$('#og').value};persist();syncIn(IDM);syncIn(IDP);run(sampleNow);}));
 let sample=true;
 if(st.last){M.set(st.last);sample=false;}
 if(st.p&&st.p.b){P.set(st.p);$('#psample').hidden=true;}
-$('#punknown').addEventListener('change',e=>{$('#ptime').disabled=e.target.checked;});
+syncIn(IDM);syncIn(IDP);
 $('#pform').addEventListener('submit',e=>{e.preventDefault();$('#psample').hidden=true;renderCompat();P.remember();});
 (()=>{const u=document.querySelector('link[rel=apple-touch-icon]').href,l=document.createElement('link');l.rel='icon';l.href=u;document.head.append(l);$('#logo').src=u;})();
 shuffle(); drawDeck(); drawSlots(false); renderReadingPlaceholder();
-M.render();M.chkUI();P.render();P.chkUI();
+M.dis();P.dis();syncIn(IDM);syncIn(IDP);M.render();M.chkUI();P.render();P.chkUI();
 run(sample);</script>
 </body>
 </html>
